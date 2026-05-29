@@ -457,4 +457,10 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except Exception as e:
+        import traceback
+        st.error("程式發生錯誤")
+        st.exception(e)
+        st.code(traceback.format_exc())
