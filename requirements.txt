@@ -5,3 +5,4 @@ scipy
 plotly
 ipykernel
 nbformat>=4.2.0
+psycopg2-binary
