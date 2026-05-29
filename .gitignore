@@ -1,0 +1,6 @@
+division.db
+
+__pycache__/
+*.pyc
+
+first.ipynb
